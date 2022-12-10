@@ -25,7 +25,7 @@ const Header = () => {
                                 to='/aboutMe'
                                 class="font-medium tracking-wide text-indigo-800 px-2 py-2 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                             >
-                                About Me
+                                About
                             </Link>
                         </li>
                         <li>
@@ -49,7 +49,7 @@ const Header = () => {
                                 to='/contactMe'
                                 class="font-medium tracking-wide px-2 py-2 text-indigo-800 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                             >
-                                Contact Me
+                                Contact
                             </Link>
                         </li>
                         <li>
@@ -124,7 +124,7 @@ const Header = () => {
                                                     to='/aboutMe'
                                                     class="font-medium tracking-wide text-indigo-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    About Me
+                                                    About
                                                 </Link>
                                             </li>
                                             <li>
@@ -148,7 +148,7 @@ const Header = () => {
                                                     to='/contactMe'
                                                     class="font-medium tracking-wide text-indigo-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    Contact Me
+                                                    Contact
                                                 </Link>
                                             </li>
                                             <li>
