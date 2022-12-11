@@ -8,7 +8,12 @@ import Home from './component/Home/Home/Home';
 import Main from './component/Layout/Main';
 import Project from './component/Projects/Project';
 import Projects from './component/Projects/Projects';
+import Pruject from './component/Projects/Pruject';
+import Pruject1 from './component/Projects/Pruject1';
+import Pruject2 from './component/Projects/Pruject2';
+import Pruject3 from './component/Projects/Pruject3';
 import Skill from './component/Skill/Skill';
+import Spinner from './shared/Spinner/Spinner';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -24,7 +29,19 @@ const router = createBrowserRouter([
       },
       {
         path : '/projects',
-        element : <Projects></Projects>
+        element : <Pruject></Pruject>
+      },
+      {
+        path : '/projects1',
+        element : <Pruject1></Pruject1>
+      },
+      {
+        path : '/projects2',
+        element : <Pruject2></Pruject2>
+      },
+      {
+        path : '/projects3',
+        element : <Pruject3></Pruject3>
       },
       {
         path : '/aboutMe',
@@ -44,7 +61,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider fallbackElement={<Spinner></Spinner>} router={router}></RouterProvider>
     <Toaster></Toaster>
     </div>
   );
