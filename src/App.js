@@ -2,6 +2,7 @@ import { Toaster } from 'react-hot-toast';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import AboutMe from './component/AboutMe/AboutMe';
+import Blog from './component/Blogs/Blog';
 import ContactMe from './component/ContactMe/ContactMe';
 import Home from './component/Home/Home/Home';
 import Main from './component/Layout/Main';
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path : '/contactMe',
         element : <ContactMe></ContactMe>
+      },
+      {
+        path : '/blogs',
+        element : <Blog></Blog>
       },
     ]
   }

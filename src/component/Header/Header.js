@@ -54,6 +54,14 @@ const Header = () => {
                         </li>
                         <li>
                             <Link
+                                to='/blogs'
+                                class="font-medium tracking-wide px-2 py-2 text-indigo-800 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
+                            >
+                                Blogs
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                                 href="/"
                                 class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-indigo-800 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-indigo-700 hover:text-white focus:shadow-outline focus:outline-none"
                                 aria-label="Sign up"
@@ -149,6 +157,14 @@ const Header = () => {
                                                     class="font-medium tracking-wide text-indigo-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
                                                     Contact
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link
+                                                    to='/blogs'
+                                                    class="font-medium tracking-wide text-indigo-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                                >
+                                                    Blogs
                                                 </Link>
                                             </li>
                                             <li>
