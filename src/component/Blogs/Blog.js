@@ -1,11 +1,27 @@
 import React from 'react';
-import blogs from '../../assest/Blog Coming soon.gif'
+import TypewriterComponent from 'typewriter-effect';
 const Blog = () => {
-    return (
-        <div >
-          <img className='w-full' src={blogs} alt="" />    
-        </div>
-    );
+  return (
+    <div >
+     <TypewriterComponent
+            onInit={(typewriter) => {
+              typewriter
+              .start()
+                .typeString(
+                  '<h1 style="color:#434190; margin-top: 250px ; font-size:50px; font-weight:600 ;">Coming</h1>'
+                )
+                .pauseFor(1000)
+                .start()
+                .typeString(
+                  '<h1 style="color:#434190; margin-bottom: 250px; font-size:50px; font-weight:600;">SooooooN!!!</h1>'
+                )
+                .pauseFor(1000)
+                
+                .stop();
+            }}
+          />
+    </div>
+  );
 };
 
 export default Blog;
