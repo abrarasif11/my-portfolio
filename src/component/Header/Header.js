@@ -14,13 +14,12 @@ const Header = () => {
                         title="Company"
                         class="inline-flex items-center"
                     >
-                        <img className='w-[70px]' src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/c6267a8feb3cbb78ebb0f5a374b21613/226f16cb-5718-4fa6-8051-6e1e998482ff_rwc_0x0x3008x1807x3008.png?h=da9839d4a497954726a2c464dbf61479" alt="" />
                         <span class="ml-2 text-xl font-bold tracking-wide px-2 py-2 hover:bg-indigo-700 hover:text-white text-indigo-800 uppercase">
                             Portfolio
                         </span>
                     </Link>
                     <ul class="flex items-center hidden space-x-8 lg:flex">
-                    <li>
+                        <li>
                             <Link
                                 to='/aboutMe'
                                 class="font-medium tracking-wide text-indigo-800 px-2 py-2 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"

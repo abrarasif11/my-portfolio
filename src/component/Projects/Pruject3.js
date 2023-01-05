@@ -1,7 +1,7 @@
 import React from 'react';
-import pic1 from '../../assest/Screenshot (399).png'
-import pic2 from '../../assest/Screenshot (400).png'
-import pic3 from '../../assest/Screenshot (401).png'
+import pic1 from '../../assest/Screenshot (414).png'
+import pic2 from '../../assest/Screenshot (415).png'
+import pic3 from '../../assest/Screenshot (416).png'
 const Pruject3 = () => {
     return (
         <section>
@@ -12,8 +12,8 @@ const Pruject3 = () => {
                 <img src={pic1} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
-                        <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Course Section</h2>
-                        <p className="text-black">Here our online courses are shown, user can choose the course according to his choice</p>
+                        <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Categories</h2>
+                        <p className="text-black">Three Types of food categories items in this website.You can choose you favorite one..</p>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,8 @@ const Pruject3 = () => {
                 <img src={pic2} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
-                        <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">FAQ Section</h2>
-                        <p className="text-black">Here some details have been discussed so that one can know about the course well</p>
+                        <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Review Section</h2>
+                        <p className="text-black">Here customer can give there opinion.</p>
                     </div>
                 </div>
             </div>
@@ -32,8 +32,8 @@ const Pruject3 = () => {
                 <img src={pic3} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
-                        <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Question Section</h2>
-                        <p className="text-black">You can see on this website is question answer section where answers of four question are given</p>
+                        <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Dashboard</h2>
+                        <p className="text-black">Only admin can see this route.Admin can see this route user, order list and add new items.</p>
                     </div>
                 </div>
             </div>
