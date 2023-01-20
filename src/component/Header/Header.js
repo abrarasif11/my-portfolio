@@ -60,14 +60,10 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link
-                                href="/"
-                                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-indigo-800 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-indigo-700 hover:text-white focus:shadow-outline focus:outline-none"
-                                aria-label="Sign up"
-                                title="Sign up"
-                            >
-                                Hire Me
-                            </Link>
+                                <a target='_blank'  className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-indigo-800 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-indigo-700 hover:text-white focus:shadow-outline focus:outline-none" href="https://www.linkedin.com/in/fahim-abrar-asif-2601a6244/
+                                ">
+                                    Hire Me
+                                </a>
                         </li>
                     </ul>
                     <div class="lg:hidden">

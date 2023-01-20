@@ -7,6 +7,7 @@ import logo5 from '../../assest/firebase-logo-png-firebase-logo-png-transparent-
 import logo6 from '../../assest/nodejs-logo-FBE122E377-seeklogo.com.png'
 import logo7 from '../../assest/HTML5_badge.png'
 import logo8 from '../../assest/css3_badge.png'
+import logo9 from '../../assest/express-js-png-5.png'
 const Skill = () => {
 
   return (
@@ -64,6 +65,9 @@ const Skill = () => {
         </div>
         <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo8} alt="" />
+        </div>
+        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+          <img className='w-12' src={logo9} alt="" />
         </div>
       </div>
     </div>
