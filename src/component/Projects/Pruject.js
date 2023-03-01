@@ -6,7 +6,7 @@ import project3 from '../../assest/Screenshot (413).png'
 
 const Pruject = () => {
     return (
-        <section>
+        <section className='mx-auto'>
             <h3 className='text-3xl mt-10 font-montserrat text-black'>My <span className='text-indigo-800'> Projects</span></h3>
         <div className='grid sm:grid-cols-3 gap-3 mx-10 mt-10 mb-20 font-montserrat'>
             {/* 1s */}

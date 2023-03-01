@@ -42,31 +42,31 @@ const Skill = () => {
         </h2>
       </div>
       <div className="grid grid-cols-2 mt-20 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-6">
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-          <img className='w-12' src={logo1} alt="" />
+        <div className="flex hover:scale-105 transition-all duration-900 items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+          <img className='w-12 hover:scale-105 transition-all duration-900' src={logo1} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex hover:scale-105 transition-all duration-900 items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo2} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo3} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-16' src={logo4} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo5} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo6} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo7} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo8} alt="" />
         </div>
-        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo9} alt="" />
         </div>
       </div>
