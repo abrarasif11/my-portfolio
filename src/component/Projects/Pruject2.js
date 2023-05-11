@@ -1,7 +1,7 @@
 import React from 'react';
-import pic1 from '../../assest/Screenshot (395).png'
-import pic2 from '../../assest/Screenshot (396).png'
-import pic3 from '../../assest/Screenshot (397).png'
+import pic1 from '../../assest/Screenshot (468).png'
+import pic2 from '../../assest/Screenshot (469).png'
+import pic3 from '../../assest/Screenshot (470).png'
 const Pruject2 = () => {
     return (
         <section>
@@ -12,8 +12,8 @@ const Pruject2 = () => {
                     <img src={pic1} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                     <div className="flex flex-col justify-between p-6 space-y-8">
                         <div className="space-y-2">
-                            <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Service Section</h2>
-                            <p className="text-black">There are six services here, the user can choose the service of his choice from here</p>
+                            <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Categories Section</h2>
+                            <p className="text-black">There are three categories here, the user can choose the service of his choice from here</p>
                         </div>
                     </div>
                 </div>
@@ -22,8 +22,8 @@ const Pruject2 = () => {
                     <img src={pic2} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                     <div className="flex flex-col justify-between p-6 space-y-8">
                         <div className="space-y-2">
-                            <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Login Section</h2>
-                            <p className="text-black">You must login to receive the service, otherwise you will not be able to receive any service, so you can receive the service by logging in from this section.</p>
+                            <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Appointment Section</h2>
+                            <p className="text-black">User can appoint for their service at suitable time from this website.</p>
                         </div>
                     </div>
                 </div>
@@ -32,8 +32,8 @@ const Pruject2 = () => {
                     <img src={pic3} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                     <div className="flex flex-col justify-between p-6 space-y-8">
                         <div className="space-y-2">
-                            <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Question Section</h2>
-                            <p className="text-black">You can see on this website is question answer section where answers of four question are given</p>
+                            <h2 className="text-3xl text-indigo-800 font-semibold tracking-wide">Log In Section</h2>
+                            <p className="text-black">You must login to receive the service, otherwise you will not be able to receive any service, so you can receive the service by logging in from this section.</p>
                         </div>
                     </div>
                 </div>

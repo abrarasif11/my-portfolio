@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import project1 from '../../assest/Screenshot (389).png'
-import project2 from '../../assest/Screenshot (394).png'
+import project2 from '../../assest/Screenshot (467).png'
 import project3 from '../../assest/Screenshot (413).png'
 
 const Pruject = () => {
@@ -46,13 +46,13 @@ const Pruject = () => {
                 <img src={project2} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
-                        <h2 className="text-3xl font-semibold tracking-wide">MR. Travel Guider</h2>
-                        <p className="text-black">Tourist Guider Website</p>
+                        <h2 className="text-3xl font-semibold tracking-wide">Smooth Styling</h2>
+                        <p className="text-black">Online Gents Parlour Website</p>
                     </div>
                     <Link to='/projects2'>
                     <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">See Details</button>
                     </Link>
-                    <a target='_blank' href="https://radiant-brigadeiros-f0fd38.netlify.app/">
+                    <a target='_blank' href="https://smooth-styling.netlify.app/">
                         <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">Live Link</button>
                     </a>
                 </div>
