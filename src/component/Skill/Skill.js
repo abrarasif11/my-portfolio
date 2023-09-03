@@ -8,6 +8,7 @@ import logo6 from '../../assest/nodejs-logo-FBE122E377-seeklogo.com.png'
 import logo7 from '../../assest/HTML5_badge.png'
 import logo8 from '../../assest/css3_badge.png'
 import logo9 from '../../assest/express-js-png-5.png'
+import logo10 from '../../assest/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png'
 const Skill = () => {
 
   return (
@@ -37,7 +38,7 @@ const Skill = () => {
                 height="24"
               />
             </svg>
-            <span className="relative  font-montserrat">My <span className='text-indigo-800'> Skills</span> On</span>
+            <span className="relative  font-montserrat">My <span className='text-[#146C94]'> Skills</span> On</span>
           </span>{' '}
         </h2>
       </div>
@@ -68,6 +69,9 @@ const Skill = () => {
         </div>
         <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
           <img className='w-12' src={logo9} alt="" />
+        </div>
+        <div className="flex items-center hover:scale-105 transition-all duration-900 justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+          <img className='w-12' src={logo10} alt="" />
         </div>
       </div>
     </div>

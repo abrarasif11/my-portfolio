@@ -38,7 +38,7 @@ const ContactMe = () => {
                                 <label for='message' class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
                                 <textarea name='message' class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                             </div>
-                            <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-800 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                            <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#146C94] rounded-md hover:bg-[#4682A9] focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                 Submit
                             </button>
                         </form>

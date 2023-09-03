@@ -7,7 +7,7 @@ const Header = () => {
             <li>
                 <Link
                     to='/aboutMe'
-                    class="font-medium font-montserrat tracking-wide text-indigo-800 px-2 py-2 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
+                    class="font-medium font-montserrat tracking-wide text-[#146C94] px-2 py-2 hover:bg-[#146C94] hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                 >
                     About
                 </Link>
@@ -15,7 +15,7 @@ const Header = () => {
             <li>
                 <Link
                     to='/skill'
-                    class="font-medium font-montserrat tracking-wide px-2 py-2 text-indigo-800 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
+                    class="font-medium font-montserrat tracking-wide px-2 py-2 text-[#146C94] hover:bg-[#146C94] hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                 >
                     Skills
                 </Link>
@@ -23,7 +23,7 @@ const Header = () => {
             <li>
                 <Link
                     to='/projects'
-                    class="font-medium font-montserrat tracking-wide text-indigo-800 px-2 py-2 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
+                    class="font-medium font-montserrat tracking-wide text-[#146C94] px-2 py-2 hover:bg-[#146C94] hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                 >
                     Projects
                 </Link>
@@ -31,7 +31,7 @@ const Header = () => {
             <li>
                 <Link
                     to='/contactMe'
-                    class="font-medium font-montserrat tracking-wide px-2 py-2 text-indigo-800 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
+                    class="font-medium font-montserrat tracking-wide px-2 py-2 text-[#146C94] hover:bg-[#146C94] hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                 >
                     Contact
                 </Link>
@@ -39,13 +39,13 @@ const Header = () => {
             <li>
                 <Link
                     to='/blogs'
-                    class="font-medium font-montserrat tracking-wide px-2 py-2 text-indigo-800 hover:bg-indigo-700 hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
+                    class="font-medium font-montserrat tracking-wide px-2 py-2 text-[#146C94] hover:bg-[#146C94] hover:text-white transition-colors duration-200 hover:text-teal-accent-400"
                 >
                     Blogs
                 </Link>
             </li>
             <li>
-                <a target='_blank' className="inline-flex items-center font-montserrat justify-center h-12 px-6 font-medium tracking-wide text-indigo-800 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-indigo-700 hover:text-white focus:shadow-outline focus:outline-none" href="https://www.linkedin.com/in/fahim-abrar-asif-2601a6244/
+                <a target='_blank' className="inline-flex items-center font-montserrat justify-center h-12 px-6 font-medium tracking-wide text-[#146C94] transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-[#146C94] hover:text-white focus:shadow-outline focus:outline-none" href="https://www.linkedin.com/in/fahim-abrar-asif-2601a6244/
                                 ">
                     Hire Me
                 </a>
@@ -57,7 +57,7 @@ const Header = () => {
         <div className="navbar bg-white flex justify-between">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn text-indigo-800 btn-ghost lg:hidden">
+                    <label tabIndex={0} className="btn text-[#146C94] btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -84,7 +84,7 @@ const Header = () => {
 
                     <Link
                         to="/"
-                        className="btn btn-ghost text-indigo-800 font-montserrat normal-case font-poppins font-semibold  text-2xl"
+                        className="btn btn-ghost text-[#146C94] font-montserrat normal-case font-poppins font-semibold  text-2xl"
                     >
                        Fahim Abrar Asif
                     </Link>

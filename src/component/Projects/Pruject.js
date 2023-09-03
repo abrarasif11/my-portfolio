@@ -7,7 +7,7 @@ import project3 from '../../assest/Screenshot (413).png'
 const Pruject = () => {
     return (
         <section className='mx-auto'>
-            <h3 className='text-3xl mt-10 font-montserrat text-black'>My <span className='text-indigo-800'> Projects</span></h3>
+            <h3 className='text-3xl mt-10 font-montserrat text-black'>My <span className='text-[#146C94]'> Projects</span></h3>
         <div className='grid sm:grid-cols-3 gap-3 mx-10 mt-10 mb-20 font-montserrat'>
             {/* 1s */}
             <div className="max-w-xs rounded-md shadow-md font-montserrat bg-white text-black">
@@ -18,10 +18,10 @@ const Pruject = () => {
                         <p className="text-black">Full Stack E-Commerce Shoe Store Website</p>
                     </div>
                     <Link to='/projects1'>
-                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">See Details</button>
+                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">See Details</button>
                     </Link>
                     <a target='_blank' href="https://yenn-cart.vercel.app/">
-                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">Live Link</button>
+                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">Live Link</button>
                     </a>
                 </div>
             </div>
@@ -34,10 +34,10 @@ const Pruject = () => {
                         <p className="text-black">Online Food Ordering Website</p>
                     </div>
                     <Link to='/projects3'>
-                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">See Details</button>
+                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">See Details</button>
                     </Link>
                     <a target='_blank' href="https://javabakeryshop.netlify.app/">
-                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">Live Link</button>
+                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">Live Link</button>
                     </a>
                 </div>
             </div>
@@ -50,10 +50,10 @@ const Pruject = () => {
                         <p className="text-black">Online Gents Parlour Website</p>
                     </div>
                     <Link to='/projects2'>
-                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">See Details</button>
+                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">See Details</button>
                     </Link>
                     <a target='_blank' href="https://smooth-styling.netlify.app/">
-                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-800 text-white">Live Link</button>
+                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">Live Link</button>
                     </a>
                 </div>
             </div>
