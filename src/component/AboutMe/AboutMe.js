@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
 	return (
 		<div className='font-montserrat'>
-			<p className='text-4xl mt-8 text-center'>About<span className='text-[#146C94]'> Myself</span></p>
+			<p className='text-4xl  mt-8'>About<span className='text-[#146C94]'> Myself</span></p>
 			<p className='mt-5'>Hello <span className='text-[#146C94]'>Everyone,</span>  I am <span className='text-[#146C94]'> Fahim Abrar Asif </span>
 				<br /> A dedicated <span className='text-[#146C94]'>MERN Stack</span> developer from Bangladesh</p>
 			<p>Are you looking for a skilled and dedicated person in Web development?
@@ -12,7 +12,8 @@ const AboutMe = () => {
 				<br /> and make your work done within your deadline.</p>
 			<br />
 			<div className="px-4 py-16 ml-28 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
-				<h2 className="mb-8 text-4xl font-bold leading-none text-center">I am <span className='text-[#146C94]'> Expertise</span> on </h2>
+				<p className="mb-8 text-4xl font-bold leading-none">I am 
+				<span className='text-[#146C94] text-4xl'> Expertise</span> on </p>
 				<ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
 
 					<li className="flex items-center space-x-2">

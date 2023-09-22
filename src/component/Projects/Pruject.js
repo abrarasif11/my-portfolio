@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import project1 from '../../assest/Screenshot (483).png'
+import project1 from '../../assest/Screenshot (542).png'
 import project2 from '../../assest/Screenshot (467).png'
 import project3 from '../../assest/Screenshot (413).png'
 
@@ -14,13 +14,13 @@ const Pruject = () => {
                 <img src={project1} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
-                        <h2 className="text-3xl font-semibold tracking-wide">Yenn Cart</h2>
-                        <p className="text-black">Full Stack E-Commerce Shoe Store Website</p>
+                        <h2 className="text-3xl font-semibold tracking-wide">Cine Fix</h2>
+                        <p className="text-black">A Online Movie and TV Shows Website</p>
                     </div>
                     <Link to='/projects1'>
                     <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">See Details</button>
                     </Link>
-                    <a target='_blank' href="https://yenn-cart.vercel.app/">
+                    <a target='_blank' href="https://cinefixx.netlify.app/">
                         <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-[#146C94] hover:bg-[#4682A9] text-white">Live Link</button>
                     </a>
                 </div>
