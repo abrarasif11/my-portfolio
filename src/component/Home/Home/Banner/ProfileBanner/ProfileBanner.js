@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../../../../assest/Portfolio Banner MERN.gif'
+import profile from '../../../../../assest/_MERN.gif'
 const ProfileBanner = () => {
     return (
         <div>
